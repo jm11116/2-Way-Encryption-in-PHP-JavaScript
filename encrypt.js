@@ -11,7 +11,7 @@ class Encrypter {
                  "aQbgKHSuL zuaKRVnOpneJywAB",
                  "a1oi7Tpc LaB(tz",
                  "aTr1pl,1hBP)ltaz2V vBnmI1!nvc",
-                 ";odot2eaLl9:odot2eaLl9"];
+                 ";odot2eaLl9:odot2eaLl9"]; //Removed last string as dollar sign was more trouble than it was worth in ensuring compatibility with PHP version
     }
     randomSalt(){
         return this.salts[Math.floor(Math.random() * this.salts.length)];
